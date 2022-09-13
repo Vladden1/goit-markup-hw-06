@@ -673,6 +673,7 @@ header.section {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
+  padding-top: 40px;
   width: 528px;
   height: 581px;
   border-radius: 4px;
@@ -702,4 +703,26 @@ header.section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Forma */
+.form-title {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.registration-form {
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
 }
