@@ -940,6 +940,12 @@ header.section {
 .form-checkbox:checked + .form-checkbox-icon .form-icon-checked {
   opacity: 1;
 }
+.agreement-tittle {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 
 .form-agreement-link {
   text-decoration: underline;
